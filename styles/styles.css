@@ -10,68 +10,65 @@
   }
 
   body {
-    font-family: "Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;    
+    max-width: 1440px;
+    border-bottom: 2px solid red;
   }
+
+  /* div{
+    border: 1px solid blue;
+  } */
 
 /* style for navbar starts here */
 
 .header-section {
     background-color: #FFF;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3.125px;  
 
   }
-  .nav-cantainer {
+  .nav-container {    
     max-width: 1170px;
-    margin: 0 auto;
-    min-height: 20px;
+    margin: 0 auto;    
     display: flex;
+    justify-content: space-between;
     align-items: center;
     
   }
-  .logo-container {
+
+  .logo-container{
     display: flex;
-    width: 50%;
+    gap: 1rem;
     align-items: center;
   }
+
   .logo-container p {
     font-size: 2.25rem;
     font-weight: 800;
   }  
-
-  .logo-container img {
-    /* width: 100px; */    
-    padding-right: 16px;
-    
-  }
-
   .unknown-text {
     color: #FF5400;    
   }
   
-  .nav-items-container {
-    width: 50%;
+  .nav-list {   
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2.75rem;
   }
   .nav-items-container a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.125rem;
     color: #424247;
-    font-weight: 700;
+    font-weight: 400;
   }
-  
+  #ham-menu{
+    display: none;
+}
   .home-nav{
-    color:#FF5400
+    color:#FF5400;
+    font-weight: 700;
   }
   /* style for navbar ends here */
 
   /* style for banner section starts here  */
 
-
-.banner-cantainer{
-    max-width: 1170px;
-    margin: 0 auto;
-
-}

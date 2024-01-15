@@ -1,0 +1,35 @@
+/* @media screen and (max-width: 768px) {
+
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  } */
+
+  @media screen and (max-width: 576px) {
+    /* nav responsive starts  */
+    body {
+        font-family: "Mulish", sans-serif;    
+        width: 82%;
+        margin: 0 auto;
+      }
+
+    .logo-container p {
+        font-size: 1.375rem;
+      }
+    .nav-list {
+        display: none;
+      /* flex-direction: column;       */
+    }
+
+    #ham-menu{
+        display: inline;
+    }
+  
+ 
+    
+    /* nav responsive ends  */
+
+    /* banner starts here  */
+
+  }
