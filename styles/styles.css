@@ -1,0 +1,77 @@
+/* Importing Mulish sans font from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
+  body {
+    font-family: "Mulish", sans-serif;
+  }
+
+/* style for navbar starts here */
+
+.header-section {
+    background-color: #FFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+  }
+  .nav-cantainer {
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+  .logo-container p {
+    font-size: 2.25rem;
+    font-weight: 800;
+  }  
+
+  .logo-container img {
+    /* width: 100px; */    
+    padding-right: 16px;
+    
+  }
+
+  .unknown-text {
+    color: #FF5400;    
+  }
+  
+  .nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #424247;
+    font-weight: 700;
+  }
+  
+  .home-nav{
+    color:#FF5400
+  }
+  /* style for navbar ends here */
+
+  /* style for banner section starts here  */
+
+
+.banner-cantainer{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
