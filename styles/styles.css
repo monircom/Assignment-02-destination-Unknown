@@ -6,16 +6,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
-  }
+    box-sizing: border-box;
+}
 
-  body {
-    font-family: "Mulish", sans-serif;    
-    max-width: 1440px;
-    border-bottom: 2px solid red;
-  }
+body {
+    font-family: "Mulish", sans-serif;
 
-  /* div{
+}
+
+/* div{
     border: 1px solid blue;
   } */
 
@@ -23,52 +22,172 @@
 
 .header-section {
     background-color: #FFF;
-    margin-top: 3.125px;  
 
-  }
-  .nav-container {    
+
+}
+
+.nav-container {
     max-width: 1170px;
-    margin: 0 auto;    
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-  }
+    padding-top: 3.125rem;
 
-  .logo-container{
+}
+
+.logo-container {
     display: flex;
     gap: 1rem;
     align-items: center;
-  }
+}
 
-  .logo-container p {
+.logo-container h1 {
     font-size: 2.25rem;
     font-weight: 800;
-  }  
-  .unknown-text {
-    color: #FF5400;    
-  }
-  
-  .nav-list {   
+}
+
+.unknown-text {
+    color: #FF5400;
+}
+
+.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2.75rem;
-  }
-  .nav-items-container a {
+}
+
+.nav-items-container a {
     text-decoration: none;
     font-size: 1.125rem;
     color: #424247;
     font-weight: 400;
-  }
-  #ham-menu{
+}
+
+#ham-menu {
     display: none;
 }
-  .home-nav{
-    color:#FF5400;
+
+.home-nav {
+    color: #FF5400;
     font-weight: 700;
-  }
-  /* style for navbar ends here */
+}
 
-  /* style for banner section starts here  */
+/* style for navbar ends here */
 
+.banner-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Banner.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 50px;
+    height: 31.25rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+
+}
+
+.banner-content p {
+    max-width: 42.25rem;
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.select-destination-form {
+
+    padding-bottom: 80px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+
+.select-destination-form form {
+    max-width: 48rem;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+}
+
+.select-destination-form form input {
+
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    width: 10rem;
+}
+
+.select-destination-form form select {
+
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    outline: none;
+    width: 10rem;
+}
+
+
+.select-destination-form form button {
+    border-radius: 8px;
+    background: #FF5400;    
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+    width: 10rem;
+    text-align: center;
+}
+
+.select-destination-form form button span {
+    color: #FFF;
+    
+    font-size: 1rem;
+    font-weight: 700;
+
+
+}
+
+.select-destination-form form button:hover {
+    background: #2ab875;
+}
+
+
+
+
+
+/* .banner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* style for banner section starts here  */
