@@ -134,18 +134,15 @@
 
 .deals-card1,
 .deals-card3 {
-
-    justify-content: center;
-    border-radius: 16px;
-}
-
-.deals-card2 {
     justify-content: center;
     border-radius: 16px;
 }
 
 
-.card1-background {
+
+
+.card1-background, .card2-background
+ {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -155,16 +152,7 @@
     border-radius: 16px;
     border: 2px solid #fff;
   }
-  .deals-inner-background2 {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0rem;
-    width: 70%;
-    height: 18rem;
-    border-radius: 16px;
-    border: 2px solid #fff;
-  }
+  
 
 /* ---style news letter section starts here-- */
   .newsletter {
