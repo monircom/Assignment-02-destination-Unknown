@@ -644,6 +644,58 @@ margin-top: 1rem;
 
 /*style Deals & Discounts section ends here */
 
+/*  style A Simple section starts here */
+
+.a-simple {
+    width: 1170px;
+    margin: 100px auto;
+    display: flex;    
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  .a-simple-text{
+    width: 70%;
+  }
+  .a-simple-text h2 {
+    width: 28rem;
+    color: #131318;
+    font-size: 40px;    
+    font-weight: 800;
+   
+  }
+  .a-simple-text p {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .a-simple-text li {
+    margin-left: 1.25rem;
+    margin-top: 1rem;
+    color: #131318;    
+    font-size: 1rem;    
+    font-weight: 700;
+   
+  }
+
+  .a-simple-text button{
+    margin-top: 2rem;
+
+  }
+
+  .video {
+    border-radius: 16px;
+    overflow: hidden;
+   
+  }
+
+
+
+/*  style A Simple section ends here */
+
+
+
+
+
 /* style news letter section starts here */
 
 .newsletter {

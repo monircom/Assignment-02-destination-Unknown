@@ -151,6 +151,28 @@
   }
   
 
+/*  style A Simple section starts here */
+
+.a-simple {
+    width: 100%;
+    /* margin: 100px auto; */
+    display: flex;   
+    flex-direction: column; 
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  .a-simple-text{
+    width: 100%;
+  }
+
+  .video {
+    border-radius: 16px;
+    overflow: hidden;    
+    width: 100%;
+  }
+
+
 /* ---style news letter section starts here-- */
   .newsletter {
     width: 100%;  
