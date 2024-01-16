@@ -25,6 +25,7 @@ body {
     text-align: center;
     color: #FFF;
     font-weight: 800;
+    font-size: 20px;
 }
 
 
@@ -640,7 +641,11 @@ margin-top: 1rem;
     display: flex;
     justify-content: center;
     margin: 48px auto;
+    
   }  
+  .deals-discounts-button button{
+    width: 15rem;
+  }
 
 /*style Deals & Discounts section ends here */
 
