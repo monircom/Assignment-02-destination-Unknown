@@ -86,12 +86,11 @@
     
 }
 
-
-
 /* style for our-tours section ends here  */
 
 
 /*style for Chose your destinations section starts here */
+
   
   .chose-you-destination {
     width: 100%;
@@ -101,7 +100,8 @@
     gap: 1rem;
   }
   .chose-you-destination-content {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
   

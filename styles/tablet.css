@@ -25,30 +25,7 @@
       }
       
 
- /*  Our Tours style starts */
-
-/*style for Chose your destinations section starts here */
-.destination {
-    width: 100%;
-    text-align: center;
-    flex-direction: column;
-    margin: 1.5rem auto;
-    gap: 1rem;
-  }
-  .destination-content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .destination-info h2 {
-    font-size: 1.25rem;
-  } 
-  
-.chose-you-destination-content>div {
-    width: 100%;
-    height: 11rem;
-    background-size: cover;
-  }
+ /*  Our Tours style ends */
 
 
   /* why us style */
