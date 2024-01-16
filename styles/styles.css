@@ -488,7 +488,7 @@ li {
 
 /*style why Chose us section ends here */
 
-/* ---style news letter section starts here-- */
+/* style news letter section starts here */
 
 .newsletter {
     width: 1170px;
@@ -578,5 +578,70 @@ li {
     width: 100%;    
   }
 
-  /* -----------------------*/
+  /* style news letter section endss here*/
+
+
+/* style Footer section starts here  */
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 110px 335px;
+    background: rgba(19, 19, 24, 0.05);
+  }
+  .footer-top {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #131318;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    
+  }
+  .footer-text span {
+    color: #ff5400;
+  }
+  .footer-top p {
+    margin-top: 1rem;
+    padding: 0 3.8rem;
+  }
+  .footer-social {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 10.895125rem;
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer hr {
+    background: rgba(19, 19, 24, 0.1);
+    margin-top: 1.5rem;
+    border: 0;
+    height: 1px;
+    
+  }
+  .footer-bottom {
+    color: #131318;
+    font-family: Inter;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;    
+    font-weight: 300;    
+  }
+  .footer-social:hover {
+    cursor: pointer;
+
+  }
+/* style Footer section ends here  */
 
