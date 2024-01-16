@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -28,6 +28,18 @@ body {
 }
 
 
+h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* div{
     border: 1px solid blue;
@@ -288,16 +300,18 @@ li {
     font-size: 2.5rem;
     font-weight: 800;
 }
-.chose-you-destination-text p{
+
+.chose-you-destination-text p {
     max-width: 40rem;
     margin: 0 auto;
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 1rem;
-font-weight: 400;
-margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
 
 }
+
 .chose-you-destination-content h3 {
     color: #fff;
     text-align: center;
@@ -331,20 +345,6 @@ margin-top: 1.5rem;
     height: 300px;
     border-radius: 1rem;
 }
-
-
-/* .img2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35.8125rem;
-    height: 18.75rem;
-    border-radius: 1rem;
-    background: linear-gradient(0deg,
-            rgba(19, 19, 24, 0.2) 0%,
-            rgba(19, 19, 24, 0.2) 100%),
-        url("../images/Rectangle\ 8.png");
-} */
 
 .img3 {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 6.png");
@@ -416,3 +416,80 @@ margin-top: 1.5rem;
 }
 
 /*style for Chose your destinations section ends here */
+
+
+/*style why Choseus section starts here */
+
+.why-chose-us {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 6.25rem auto;
+    gap: 3rem;
+}
+
+.why-chose-us-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.why-chose-us-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.why-chose-us-text p {
+    max-width: 40rem;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+
+}
+
+.why-chose-us-card {
+    padding: 2rem 2rem 0;
+    width: 43%;
+    text-align: left;
+    border-radius: 1rem;
+    height: 16rem;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why-chose-us-card h2 {
+    margin-top: 2rem;
+    color: #131318;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why-chose-us-card p {
+    margin-top: 1rem;
+}
+
+/*style why Choseus section ends here */
