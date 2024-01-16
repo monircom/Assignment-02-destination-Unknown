@@ -14,17 +14,17 @@ body {
 
 }
 
-.btn-primary{
-        border-radius: 8px;
-        background: #FF5400;    
-        padding: 1rem;
-        border: none;
-        cursor: pointer;
-        transition: all 1s;
-        width: 10rem;
-        text-align: center;
-        color: #FFF;
-        font-weight: 800;
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+    width: 10rem;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800;
 }
 
 
@@ -96,13 +96,13 @@ body {
     margin: 0 auto;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Banner.png');
     background-position: center;
-  background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
     text-align: center;
     margin-top: 50px;
     height: 32rem;
-    
+
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -143,7 +143,7 @@ body {
 
 .select-destination-form form {
     max-width: 48rem;
-    margin: 20px auto;
+
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
@@ -176,7 +176,7 @@ body {
 
 .select-destination-form form button {
     border-radius: 8px;
-    background: #FF5400;    
+    background: #FF5400;
     padding: 1rem;
     border: none;
     cursor: pointer;
@@ -187,7 +187,6 @@ body {
 
 .select-destination-form form button span {
     color: #FFF;
-    
     font-size: 1rem;
     font-weight: 700;
 
@@ -200,47 +199,220 @@ body {
 
 /* style for banner section ends here  */
 
-/*  our-tours section starts here*/
+/* style for our-tours section starts here*/
 
 .our-tours {
     max-width: 1170px;
     margin: 5rem auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 3.3125rem;
+
     /* padding-top: 3.125rem; */
     /* margin-top: 6rem; */
+}
 
+/* .our-tours {
+    max-width: 73.125rem;
+    width: 100%;
+    display: flex;
+    margin: 6.25rem auto;
+    gap: 3.3125rem;
+  } */
+.our-tours-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-tours-content h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.our-tours-content p,
+li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
 
 }
 
-.our-tours-content{
-    width: 50%;
+.our-tours-content li {
+    margin-left: 1.25rem;
 }
 
+.our-tours-content li {
+    margin-top: 0.5rem;
+}
+
+.our-tours-content button {
+    transition: all 1s;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.our-tours-content button:hover {
+    background: #2ab875;
+}
 
 /* style for our-tours section ends here  */
 
 
-/*  */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-  }
-  
-  .grid-item {
-    grid-column:span 3;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+/*style for Chose your destinations section starts here */
+
+
+
+
+.chose-you-destination {
+    max-width: 73.125rem;
+    width: 81.25%;
+    display: flex;
     text-align: center;
-    box-sizing: border-box;
-  }
-  
-  .custom {
-   grid-column:span 2;
-  }
+    flex-direction: column;
+    margin: 6.25rem auto;
+    gap: 3rem;
+}
+
+.chose-you-destination-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.chose-you-destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.chose-you-destination-text p{
+    max-width: 40rem;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 1.5rem;
+
+}
+.chose-you-destination-content h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+
+}
+
+.img1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 573px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.img2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 8.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 573px;
+    height: 300px;
+    border-radius: 1rem;
+}
 
 
-/*  */
+/* .img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35.8125rem;
+    height: 18.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg,
+            rgba(19, 19, 24, 0.2) 0%,
+            rgba(19, 19, 24, 0.2) 100%),
+        url("../images/Rectangle\ 8.png");
+} */
+
+.img3 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 286px;
+    border-radius: 1rem;
+}
+
+.img4 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 464px;
+    height: 286px;
+    border-radius: 1rem;
+}
+
+.img5 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 286px;
+    border-radius: 1rem;
+}
+
+.img6 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 11.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 474px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.img7 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%), url("../images/Rectangle\ 10.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 673px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.destination-info p {
+    margin-top: 1.25rem;
+}
+
+/*style for Chose your destinations section ends here */

@@ -1,0 +1,8 @@
+@media screen and (min-width: 600px) and (max-width: 991px) {
+
+    /* nav responsive starts  */
+   .nav-container {
+     flex-direction: column;
+   }
+     /* nav responsive ends  */
+ }

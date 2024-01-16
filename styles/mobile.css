@@ -1,13 +1,5 @@
-@media screen and (max-width: 974px) {
 
-     /* nav responsive starts  */
-    .nav-container {
-      flex-direction: column;
-    }
-      /* nav responsive ends  */
-  }
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     /* nav responsive starts  */
     .nav-container {
@@ -81,6 +73,45 @@
         width: 20rem;
         /* height: 4rem; */
     }
+
+/* style for banner section ends here  */
+
+/* style for our-tours section starts here*/
+
+.our-tours {
+    flex-direction: column;
+
+
+}
+
+/* style for our-tours section ends here  */
+
+
+/*style for Chose your destinations section starts here */
+  
+  .destination {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin: 1.5rem auto;
+    gap: 1rem;
+  }
+  .destination-content {
+    display: grid;
+    gap: 1rem;
+  }
+  .destination-info h2 {
+    font-size: 1.25rem;
+  }
+  .destination-content p {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }   
 
 
 }
