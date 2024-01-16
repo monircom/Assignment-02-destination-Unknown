@@ -217,19 +217,11 @@ p {
     max-width: 1170px;
     margin: 5rem auto;
     display: flex;
-    gap: 3.3125rem;
-
+    gap: 3.3125rem;    
     /* padding-top: 3.125rem; */
     /* margin-top: 6rem; */
 }
 
-/* .our-tours {
-    max-width: 73.125rem;
-    width: 100%;
-    display: flex;
-    margin: 6.25rem auto;
-    gap: 3.3125rem;
-  } */
 .our-tours-content {
     display: flex;
     flex-direction: column;
@@ -268,6 +260,10 @@ li {
 
 .our-tours-content button:hover {
     background: #2ab875;
+}
+
+.our-tours-img img {
+    width: 100%;
 }
 
 /* style for our-tours section ends here  */

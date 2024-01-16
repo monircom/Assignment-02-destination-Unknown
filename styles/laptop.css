@@ -1,0 +1,48 @@
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+
+
+  /* --POPULAR TOURS STYLES-- */
+
+  .our-tours {
+    width: 81.25%;
+    display: flex;
+    margin: 3.5rem auto;
+    padding: 1rem 0 0;
+    gap: 1.5rem;
+  }
+  .our-tours-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .our-tours-content h2 {
+    color: #131318;
+    font-size: 1.5rem;   
+    font-weight: 800;
+    
+  }
+  .our-tours-content p,
+  li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.7rem;    
+    font-weight: 400;
+    
+  }
+  .our-tours-content li {
+    margin-left: 1.25rem;
+  }
+  .our-tours-content button {
+    border-radius: 0.5rem;  
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+  }
+  .our-tours-content li {
+    margin-top: 0.2rem;
+  }
+  .our-plans-img img{
+    width: 100%;
+  }
+
+
+}

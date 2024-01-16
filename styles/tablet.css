@@ -1,8 +1,42 @@
 @media screen and (min-width: 601px) and (max-width: 991px) {
 
     /* nav responsive starts  */
-   .nav-container {
-     flex-direction: column;
-   }
-     /* nav responsive ends  */
- }
+    .nav-container {
+        flex-direction: column;
+    }
+
+    /* nav responsive ends  */
+
+
+
+    /*  Our Tours style starts */
+
+    .our-tours {
+        width: 85%;
+        flex-direction: column;
+        margin: 1.5rem auto;       
+        
+    }
+
+    .our-tours-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .our-tours-content p,
+    li {
+        margin-top: 1rem;
+        font-size: 0.875rem;        
+    }
+
+    .our-tours-content li {
+        margin-left: 1.25rem;
+    }
+
+    .our-tours-content button {
+        margin-top: 1.5rem;
+    }
+
+    .our-plans-img img {
+        width: 100%;
+    }
+}

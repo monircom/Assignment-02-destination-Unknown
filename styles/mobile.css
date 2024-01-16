@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 
     /* nav responsive starts  */
     .nav-container {
@@ -79,10 +79,13 @@
 /* style for our-tours section starts here*/
 
 .our-tours {
-    flex-direction: column;
-
-
+    flex-direction: column;    
 }
+.our-plans-img img {
+    width: 100%;
+    
+}
+
 
 /* style for our-tours section ends here  */
 
