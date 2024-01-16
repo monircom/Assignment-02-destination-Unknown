@@ -636,11 +636,11 @@ margin-top: 1rem;
     
   } 
 
-/* -----------------------*/
-
-
-
-
+  .deals-discounts-button{
+    display: flex;
+    justify-content: center;
+    margin: 48px auto;
+  }  
 
 /*style Deals & Discounts section ends here */
 
