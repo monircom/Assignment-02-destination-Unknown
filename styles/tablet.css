@@ -42,22 +42,34 @@
   }
   .destination-info h2 {
     font-size: 1.25rem;
-  }
-  .destination-content p {
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }  
+  } 
   
 .chose-you-destination-content>div {
     width: 100%;
     height: 11rem;
     background-size: cover;
   }
+
+
+  /* why us style */
+ 
+  .why-chose-us-card{
+    width: 80%;
+  }
+
+  /* ---style news letter section starts here-- */
+  .newsletter {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .newsletter-content{
+    width: 80%;
+  }
+
+  .newsletter-img{
+    width: 80%;
+    }
 
 
 }

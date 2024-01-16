@@ -123,4 +123,26 @@
  /*style for Chose your destinations section ends here */ 
 
 
+ /* why us style */
+ 
+  .why-chose-us-card{
+    width: 80%;
+  }
+
+/* ---style news letter section starts here-- */
+  .newsletter {
+    width: 100%;  
+    flex-direction: column; 
+  }
+
+  .newsletter-content{
+    width: 80%;
+  }
+  .newsletter-img{
+  width: 90%;
+  }
+  .newsletter-img .save-seventy{
+    left: 40%;
+  }
+
 }
