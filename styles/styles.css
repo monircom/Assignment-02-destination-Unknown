@@ -434,7 +434,7 @@ li {
     width: 43%;
     text-align: left;
     border-radius: 1rem;
-    height: 16rem;
+    
 }
 
 .card-1 {
@@ -464,6 +464,7 @@ li {
 
 .why-chose-us-card p {
     margin-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 /*style why Chose us section ends here */
@@ -488,7 +489,7 @@ li {
     margin: 6.25rem auto;
 }
 
-.deals-discounts>h2 {
+.deals-discounts>h1 {
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
@@ -546,7 +547,7 @@ li {
     flex-direction: column;
     margin-right: 3.5rem;
     width: 30rem;
-    height: 18rem;
+    /* height: 18rem; */
     border-radius: 16px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.8);
@@ -559,7 +560,7 @@ li {
     flex-direction: column;
     margin-left: 3.5rem;
     width: 30rem;
-    height: 18rem;
+    /* height: 18rem; */
     border-radius: 16px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.8);
@@ -578,12 +579,9 @@ li {
 
 .card1-background h2,
 .card2-background h2 {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    color: #131318;    
+    font-size: 1.5rem;    
+    font-weight: 800;    
     margin-top: 1.625rem;
 }
 
@@ -600,12 +598,10 @@ margin-top: 1rem;
 .card1-background h3,
 .card2-background h3 {
     color: #ff5400;
-    margin-top: 1rem;
-    font-family: Mulish;
-    font-size: 1.25rem;
-    font-style: normal;
+    margin-top: 1rem;    
+    font-size: 1.25rem;    
     font-weight: 800;
-    line-height: normal;
+    
 }
 
 .card1-background button,
