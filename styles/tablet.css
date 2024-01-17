@@ -1,18 +1,26 @@
-@media screen and (min-width: 601px) and (max-width: 991px) {
+@media screen and (min-width: 901px) and (max-width: 1200px) {
 
     /* nav responsive starts  */
     .nav-container {
         flex-direction: column;
     }
 
+    .nav-items-container{
+      margin-top: 50px;
+    }
+
     /* nav responsive ends  */
+
+    .banner-container{
+      width: 80%;
+    }
 
 
 
     /*  Our Tours style starts */
 
     .our-tours {
-        width: 100%;
+        width: 80%;
         display: flex;
         margin: 3.5rem auto;
         padding: 1rem 0 0;
@@ -29,11 +37,37 @@
 
 
   /* why us style */
- 
+  .why-chose-us{
+    width: 80%;
+  }
   .why-chose-us-card{
     width: 100%;
   }
 
+
+  /* Deals  and discounts*/
+
+.deals-discounts{
+  width: 80%;
+}
+
+/* customer */
+
+.customer{
+  width: 80%;
+}
+
+/* A simple  */
+ .a-simple{
+  width: 80%;
+ }
+.a-simple-text{
+  width: 100%;
+}
+
+.video{
+  width: 100%;
+}
   /* ---style news letter section starts here-- */
   .newsletter {
     width: 100%;
@@ -41,7 +75,7 @@
   }
 
   .newsletter-content{
-    width: 80%;
+    width: 70%;
   }
 
   .newsletter-img{
@@ -56,6 +90,10 @@
         background: rgba(19, 19, 24, 0.05);
         padding: 32px 44px;
       }
+
+  .a-simple{
+    flex-direction: column;
+  }
 
 /*  style for Footer  Starts Here  */
  

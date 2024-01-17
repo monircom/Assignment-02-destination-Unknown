@@ -627,7 +627,7 @@ margin-top: 1rem;
 /*  style A Simple section starts here */
 
 .a-simple {
-    width: 1170px;
+    max-width: 1170px;
     margin: 100px auto;
     display: flex;    
     justify-content: space-around;
@@ -635,7 +635,11 @@ margin-top: 1rem;
   }
   
   .a-simple-text{
-    width: 70%;
+    width: 50%;
+  }
+
+  .video{
+    width: 50%;
   }
   .a-simple-text h2 {
     width: 28rem;
